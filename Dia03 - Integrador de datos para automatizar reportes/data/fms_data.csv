@@ -1,0 +1,8 @@
+timestamp,truck_id,shovel_id,payload_tons,destination
+2023-11-15 20:05:10,CA-101,PA-01,195,Planta
+2023-11-15 20:15:25,CA-102,PA-01,201,Planta
+2023-11-15 20:20:40,CA-103,PA-02,198,Botadero
+2023-11-15 20:30:11,CA-101,PA-01,205,Planta
+2023-11-15 20:45:50,CA-102,PA-01,199,Planta
+2023-11-15 20:55:10,CA-104,PA-02,202,Botadero
+2023-11-15 21:10:00,CA-101,PA-01,198,Planta

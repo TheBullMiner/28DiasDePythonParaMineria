@@ -1,0 +1,86 @@
+/* Estilo para el reporte de turno */
+@page {
+    size: A4;
+    margin: 1.5cm;
+}
+
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    color: #333;
+}
+
+h1 {
+    color: #003366;
+    text-align: center;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #0055A4;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+.header-info {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.1em;
+}
+
+.kpi-summary {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.kpi-box {
+    flex-grow: 1;
+}
+
+.kpi-value {
+    font-size: 2em;
+    font-weight: bold;
+    color: #003366;
+}
+
+.kpi-label {
+    font-size: 1em;
+    color: #555;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #0055A4;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.chart-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.chart-container img {
+    max-width: 90%;
+    height: auto;
+}

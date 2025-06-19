@@ -1,0 +1,22 @@
+pandas
+matplotlib
+Jinja2
+WeasyPrint
+
+
+# WeasyPrint is used for rendering HTML and CSS to PDF
+
+# Paso 1: Descargar el Instalador de GTK+
+# WeasyPrint recomienda usar GTK3. La forma más sencilla de instalarlo es a través de un instalador que lo hace todo por ti.
+#
+#    Ve a esta página: https://github.com/tschoonj/GTK-for-Windows-Runtime-Environment-Installer/releases
+#
+#    Busca la versión más reciente (la que está arriba del todo).
+#
+#    Descarga el archivo .exe para sistemas de 64 bits. Generalmente se llama algo como gtk3-runtime-x.xx.x-x-x-x-ts-win64.exe.
+#
+#Paso 2: Ejecutar la Instalación
+#
+#    Ejecuta el archivo .exe que acabas de descargar.
+#
+#   Sigue los pasos del instalador. En una de las ventanas, te aparecerá una opción para "Set PATH to include GTK+" o "Add GTK+ to the system PATH".

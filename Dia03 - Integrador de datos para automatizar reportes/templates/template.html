@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Reporte de Turno</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Reporte Diario de Operaciones</h1>
+    <div class="header-info">
+        <strong>Fecha:</strong> {{ fecha }} | <strong>Turno:</strong> {{ turno }} | <strong>Supervisor:</strong> {{ supervisor }}
+    </div>
+
+    <h2>Resumen de KPIs Principales</h2>
+    <div class="kpi-summary">
+        <div class="kpi-box">
+            <div class="kpi-value">{{ kpis.total_mineral_tons | round(0) }} T</div>
+            <div class="kpi-label">Mineral a Planta</div>
+        </div>
+        <div class="kpi-box">
+            <div class="kpi-value">{{ kpis.total_waste_tons | round(0) }} T</div>
+            <div class="kpi-label">Material a Botadero</div>
+        </div>
+        <div class="kpi-box">
+            <div class="kpi-value">{{ kpis.total_drilled_meters | round(1) }} m</div>
+            <div class="kpi-label">Metros Perforados</div>
+        </div>
+    </div>
+
+    <h2>Producción por Camión (a Planta)</h2>
+    <div class="chart-container">
+        <img src="data:image/png;base64,{{ grafico_produccion_b64 }}">
+    </div>
+
+    <h2>Detalle de Perforación por Equipo</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Equipo</th>
+                <th>Metros Perforados</th>
+                <th>N° de Pozos</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in kpis.drill_summary %}
+            <tr>
+                <td>{{ item.drill_id }}</td>
+                <td>{{ item.total_meters | round(2) }}</td>
+                <td>{{ item.hole_count }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+</body>
+</html>
