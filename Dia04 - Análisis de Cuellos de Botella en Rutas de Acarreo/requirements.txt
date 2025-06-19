@@ -1,0 +1,5 @@
+pandas
+geopandas
+matplotlib
+shapely
+contextily  # Opcional, pero genial para fondos de mapa si no tienes imagen
