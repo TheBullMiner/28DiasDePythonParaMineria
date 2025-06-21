@@ -1,0 +1,17 @@
+year,location_id,x,y,tons,material_type
+1,Phase_1,500,500,1000000,Pit
+1,Dump_Norte,200,800,1500000,Waste
+2,Phase_1,500,500,1200000,Pit
+2,Dump_Norte,200,800,1800000,Waste
+3,Phase_1,500,500,1500000,Pit
+3,Dump_Norte,200,800,2200000,Waste
+4,Phase_2,600,450,800000,Pit
+4,Dump_Norte,200,800,1200000,Waste
+5,Phase_2,600,450,1800000,Pit
+5,Dump_Sur,800,200,2500000,Waste
+6,Phase_2,600,450,2000000,Pit
+6,Dump_Sur,800,200,3000000,Waste
+7,Phase_3,400,550,1500000,Pit
+7,Dump_Sur,800,200,2000000,Waste
+8,Phase_3,400,550,2500000,Pit
+8,Dump_Sur,800,200,3500000,Waste
