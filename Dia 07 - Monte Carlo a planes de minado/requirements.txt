@@ -1,0 +1,5 @@
+numpy
+pandas
+matplotlib
+scipy
+seaborn  # Lo usaremos para un gráfico de densidad más bonito
