@@ -1,0 +1,4 @@
+pandas
+numpy
+pyvista
+imageio # Para crear el GIF animado
