@@ -1,5 +1,5 @@
 # ==============================================================================
-# #28DiasDePythonParaMineria - Día [XX]
+# #28DiasDePythonParaMineria - Día 15
 # Título: Validador de Diseño de Rampa con Simulación de Vehículo
 # Autor: Maycol Benavides
 # The Bull Miner
