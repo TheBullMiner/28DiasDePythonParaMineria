@@ -1,0 +1,3 @@
+numpy
+matplotlib
+tqdm  # Para la barra de progreso
